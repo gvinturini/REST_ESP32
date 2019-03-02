@@ -19,7 +19,7 @@ void setup() {
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED){
-    delay(500);
+    delay(450);
     Serial.print(".");
   }
 
